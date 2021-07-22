@@ -120,8 +120,9 @@ SNGAN https://arxiv.org/pdf/1802.05957.pdf
 
 SAGAN https://arxiv.org/pdf/1805.08318.pdf
 
-StyleGAN https://arxiv.org/pdf/1812.04948.pdf
-StyleGAN v2 https://arxiv.org/abs/1912.04958
+**StyleGAN**(重点掌握) https://arxiv.org/pdf/1812.04948.pdf
+
+**StyleGAN V2**(重点掌握) https://arxiv.org/abs/1912.04958
 
 MSG-GAN https://arxiv.org/abs/1903.06048
 
@@ -136,18 +137,19 @@ MSG-GAN https://arxiv.org/abs/1903.06048
 
 ### Conditional Generation：
 
-ACGAN https://arxiv.org/pdf/1610.09585.pdf
+**ACGAN** https://arxiv.org/pdf/1610.09585.pdf
 
-cGANs with projection Discriminator https://arxiv.org/pdf/1802.05637.pdf 请查阅相关博客，尽量理解，未理解可以找我讨论
+**cGANs with projection Discriminator** https://arxiv.org/pdf/1802.05637.pdf 请查阅相关博客，尽量理解，未理解可以找我讨论
 
-biggan https://arxiv.org/pdf/1809.11096.pdf 大batch size版的cGANs with projection Discriminator
+**BigGAN** https://arxiv.org/pdf/1809.11096.pdf 大batch size版的cGANs with projection Discriminator
 
 conditional coloring https://arxiv.org/pdf/1806.00420.pdf
 
 Multi-Hinge https://arxiv.org/pdf/1912.04216.pdf
 
 **我们自己的face attributes editing** https://link.springer.com/chapter/10.1007/978-3-030-58621-8_39
-**我们自己的换脸** https://dl.acm.org/doi/abs/10.1145/3394171.3413630
+
+**我们自己的换脸** https://github.com/neuralchen/SimSwap
 
 
 ### Image translation:
