@@ -1,4 +1,4 @@
-# NeuralRenderingTutorial
+# Neural Rendering Tutorial
  
 # 深度渲染（Neural Rendering）入门手册
 个人理解深度生成应该属于计算机图形学方向的分支
@@ -20,7 +20,7 @@
 
 ubuntu16.04版本的基础使用
 
-硬盘挂载mount、硬盘使用情况查看df du fdisk等
+硬盘挂载mount、硬盘使用情况查看df, du, fdisk等
 
 nvidia驱动安装 卸载
 
@@ -59,6 +59,8 @@ visual studio code 代码编辑环境
 
 机器远程连接软件：MobaXterm
 
+## 5.重要数据及课程
+
 斯坦福大学CS231n网络课程
 
 **Deep Learning (对于希望系统性了解整个深度学习理论架构并且已经具备初阶深度学习基础的同学)**
@@ -71,10 +73,11 @@ nndl-ebook "Neural Networks and Deep Learning"
 提取码：khon 
 
 ***冲读深度生成（现在称AIGC）方向的博士***
-请把***Pattern Recognition and Machine Learning***
+请把***Pattern Recognition and Machine Learning***(PRML)倒背如流！
+
 [英文PDF](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
 
-## 5.计算机领域论文搜索
+## 6.计算机领域论文搜索
 
 CVF Open access （包括ICCV CVPR ECCV近年的论文，可以找到论文附带的补充材料） https://openaccess.thecvf.com/menu
 
@@ -84,7 +87,7 @@ google
 
 针对计算机图形学领域：直接google siggraph (asia) paper list既可以搜到近些年的官方给出的paper list
 
-## 6.需要了解的基本概念：
+## 7.需要了解的基本概念：
 
 了解SGD（随机梯度下降）原理
 
@@ -109,7 +112,7 @@ adaptive instance normalization https://arxiv.org/pdf/1703.06868.pdf
 conditional instance normalization
 
 
-### 深度生成相关知识：
+## 8.深度生成相关知识：
 
 理解GAN，请先查阅相关博客资料，原论文：https://arxiv.org/abs/1406.2661
 
@@ -187,15 +190,15 @@ Style Aware(效果SOTA)https://openaccess.thecvf.com/content_ECCV_2018/papers/Ar
 **非常关键** https://arxiv.org/abs/2004.03805
 
 
-## 7. 计算机图形学基础
+## 9. 计算机图形学基础
 
 课程网站 https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html
 
 课程视频  https://www.bilibili.com/video/BV1X7411F744
-## 6.科学上网
+## 10.科学上网
 
 https://github.com/shadowsocks/shadowsocks-windows
 
-## 7.杂项
+## 11.杂项
 
 一个下书的丧心病狂的网站 http://gen.lib.rus.ec/
