@@ -1,4 +1,4 @@
-# Neural Rendering Tutorial
+# AIGC Tutorial
  
 # 深度渲染（Neural Rendering）入门手册
 个人理解深度生成应该属于计算机图形学方向的分支
@@ -160,7 +160,7 @@ Multi-Hinge https://arxiv.org/pdf/1912.04216.pdf
 
 ### Image translation:
 
-starGAN 改进版ACGAN https://arxiv.org/pdf/1711.09020.pdf
+StarGAN 改进版ACGAN https://arxiv.org/pdf/1711.09020.pdf
 
 StarGAN v2 https://arxiv.org/pdf/1912.01865.pdf
 
