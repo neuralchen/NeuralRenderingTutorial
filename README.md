@@ -72,7 +72,7 @@ nndl-ebook "Neural Networks and Deep Learning"
 
 提取码：khon 
 
-***冲读深度生成（现在称AIGC）方向的博士***
+***冲着读深度生成（现在称AIGC）方向的博士***
 请把***Pattern Recognition and Machine Learning***(PRML)倒背如流！
 
 [英文PDF](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
