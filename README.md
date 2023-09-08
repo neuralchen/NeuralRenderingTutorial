@@ -4,7 +4,7 @@
 个人理解深度生成应该属于计算机图形学方向的分支
 
 ## 1.基础机器学习
-李航 《统计学习方法》
+李航 《统计学习方法》看第一章熟悉概念
 
 链接：https://pan.baidu.com/s/135q4YvqHrcCX9edXbwmkZQ 
 
@@ -70,6 +70,9 @@ nndl-ebook "Neural Networks and Deep Learning"
 
 提取码：khon 
 
+***冲读深度生成（现在称AIGC）方向的博士***
+请把***Pattern Recognition and Machine Learning***
+[英文PDF](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
 
 ## 5.计算机领域论文搜索
 
