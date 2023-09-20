@@ -30,6 +30,8 @@ cuda cudnn安装
 
 nvidia-smi命令使用
 
+gcc如何安装，多版本切换
+
 ssh服务开启及远程使用
 
 docker容器安装与使用 nvidia-docker安装与使用
