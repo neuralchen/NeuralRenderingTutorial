@@ -28,6 +28,9 @@ nvidia显卡驱动安装教程：https://shimo.im/docs/Xq9rrdyC9vD8kH8P/
 
 cuda cudnn安装
 
+### CUDA与cudnn安装
+***杜绝使用apt-get install安装任何cuda相关的软件包！！！！！***
+
 nvidia-smi命令使用
 
 gcc如何安装，多版本切换
