@@ -33,7 +33,9 @@ cuda cudnn安装
 - 查看系统中是否安装nvidia显卡驱动（***显卡驱动也严格杜绝使用apt-get install安装！！！！***），如存在显卡驱动请使用nvidia-smi查看“CUDA Version”版本，该版本即为已安装驱动能支持的最高CUDA版本
 - 下载目标版本的CUDA与Cudnn，[CUDA下载地址](https://developer.nvidia.com/cuda-downloads)，[Cudnn下载地址](https://developer.nvidia.com/cudnn)需要注册账号。***注意看版本号，如果目标版本不是最新版本号，CUDA需要通过"Archive of Previous CUDA Releases"选择目标版本***。CUDA下载和Cudnn都可以通过wget直接下载。
 - 安装CUDA，下载得到的```*.run```文件，首先需要赋予其执行权限，即通过```sudo chomod +x *.run```来实现，然后通过```sudo ./*.run```安装CUDA，请注意如果已有显卡驱动满足版本需求即不需重复安装显卡驱动，example、doc都不需要安装。
-- 
+- 在目录```/usr/local/```建立软连接```cuda```，将其链接到上一步骤安装的cuda目录上，具体命令为```sudo ln -s /path/to/installed_cuda /usr/local/cuda```，这样可以通过该软链接切换不同cuda的安装版本。
+- 安装Cudnn，下载得到压缩包```cudnn-linux-x86_64-******-archive.tar.xz```，将其解压```tar xf cudnn-linux-x86_64-******-archive.tar.xz```，解压后在当前目录得到文件夹```cudnn-linux-x86_64-******-archive```。将相关问价拷贝到cuda安装目录中，顺序执行以下三条命令：```sudo cp cudnn-linux-x86_64-******-archive/include/cudnn.h /usr/local/cuda/include```、```sudo cp cudnn-linux-x86_64-******-archive/lib/libcudnn* /usr/local/cuda/lib64```、```sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*```。
+- 设置环境路径：在```~/.bashrc```中加入```export PATH="$PATH:/usr/local/cuda/bin"```，```export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda/lib64/"```，```export LIBRARY_PATH="$LIBRARY_PATH:/usr/local/cuda/lib64"```。然后执行```source ~/.bashrc```使环境路径设置生效。
 
 nvidia-smi命令使用
 
