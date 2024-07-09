@@ -52,7 +52,11 @@ sudo ./<b>[replace_with_download_file_name]</b>.run
 sudo ln -s /path/to/installed_cuda /usr/local/cuda
 </code></pre>
 这样可以通过该软链接切换不同cuda的安装版本。
-- 安装Cudnn，下载得到压缩包```cudnn-linux-x86_64-******-archive.tar.xz```，将其解压```tar xf cudnn-linux-x86_64-******-archive.tar.xz```，解压后在当前目录得到文件夹```cudnn-linux-x86_64-******-archive/```。将相关问价拷贝到cuda安装目录中，顺序执行以下三条命令：
+- 安装Cudnn，下载得到压缩包```cudnn-linux-x86_64-******-archive.tar.xz```，将其解压
+<pre><code>
+tar xf cudnn-linux-x86_64-******-archive.tar.xz
+</code></pre>
+解压后在当前目录得到文件夹```cudnn-linux-x86_64-******-archive/```。将相关文件拷贝到cuda安装目录中，顺序执行以下三条命令：
 <pre><code>
   sudo cp cudnn-linux-x86_64-******-archive/include/cudnn.h /usr/local/cuda/include
   sudo cp cudnn-linux-x86_64-******-archive/lib/libcudnn* /usr/local/cuda/lib64
@@ -70,7 +74,7 @@ export PATH="$PATH:/usr/local/cuda/bin"
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda/lib64/"
 export LIBRARY_PATH="$LIBRARY_PATH:/usr/local/cuda/lib64"
 </code></pre>  
-然后执行:
+按```ctrl+wq```保存并退出，然后执行:
 <pre><code>
 source ~/.bashrc
 </code></pre> 
