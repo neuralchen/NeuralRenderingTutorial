@@ -34,8 +34,6 @@ sudo service lightdm stop
 sudo ./<b>[replace_with_download_file_name]</b>.run
 </code></pre>
 
-cuda cudnn安装
-
 ### CUDA与cudnn安装
 ***杜绝使用apt-get install安装任何cuda相关的软件包！！！！！***
 - 查看系统中是否安装nvidia显卡驱动（***显卡驱动也严格杜绝使用apt-get install安装！！！！***），如存在显卡驱动请使用nvidia-smi查看“CUDA Version”版本，该版本即为已安装驱动能支持的最高CUDA版本
