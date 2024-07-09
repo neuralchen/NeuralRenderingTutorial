@@ -26,14 +26,13 @@ nvidia驱动安装 卸载
 
 nvidia显卡驱动安装教程：
 
-根据显卡型号到nvidia的官网下载对应的.run的安装文件，将该文件放置在待安装的机器中，切换到对应文件夹下
+根据显卡型号到nvidia的官网下载对应的```*.run```的安装文件，将该文件放置在待安装的机器中，切换到对应文件夹下
 安装方法
-
-```sudo apt-get purge nvidia*```
-
-```sudo service lightdm stop```
-
-```sudo ./*.run```
+<pre><code>
+sudo apt-get purge nvidia*
+sudo service lightdm stop
+sudo ./***[replace_with_download_file_name]***.run
+</code></pre>
 
 cuda cudnn安装
 
