@@ -49,7 +49,7 @@ sudo ./<b>[replace_with_download_file_name]</b>.run
 安装CUDA，请注意如果已有显卡驱动满足版本需求即不需重复安装显卡驱动，example、doc都不需要安装。
 - 在目录```/usr/local/```建立软连接```cuda```，将其链接到上一步骤安装的cuda目录上，***注意：这个软链接一般在安装CUDA时候会提示是否自动创建，如已经创建，此步骤跳过***，具体命令为
 <pre><code>
-sudo ln -s /path/to/installed_cuda /usr/local/cuda
+sudo ln -s <b>/path/to/installed_cuda</b> /usr/local/cuda
 </code></pre>
 这样可以通过该软链接切换不同cuda的安装版本。
 - 安装Cudnn，下载得到压缩包```cudnn-linux-x86_64-******-archive.tar.xz```，将其解压
