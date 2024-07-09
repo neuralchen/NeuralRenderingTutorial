@@ -31,7 +31,7 @@ nvidia显卡驱动安装教程：
 <pre><code>
 sudo apt-get purge nvidia*
 sudo service lightdm stop
-sudo ./***[replace_with_download_file_name]***.run
+sudo ./<br>[replace_with_download_file_name]</br>.run
 </code></pre>
 
 cuda cudnn安装
