@@ -22,7 +22,13 @@ ubuntu16.04版本的基础使用
 
 硬盘挂载mount、硬盘使用情况查看df, du, fdisk等
 
-查看端口占用
+- 硬盘挂载
+<pre><code>
+sudo mount /dev/sdb1 /mnt/mydrive
+</code></pre>
+
+
+- 查看端口占用
 <pre><code>
 sudo lsof -i :端口号
 </code></pre>
