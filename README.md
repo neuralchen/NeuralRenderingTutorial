@@ -22,6 +22,10 @@ ubuntu16.04版本的基础使用
 
 硬盘挂载mount、硬盘使用情况查看df, du, fdisk等
 
+查看端口占用
+<pre><code>
+sudo lsof -i :端口号
+</code></pre>
 
 
 ### nvidia显卡驱动安装教程 (nvidia驱动安装 卸载)：
