@@ -29,7 +29,7 @@ sudo du -sh *
 
 - 硬盘挂载
 <pre><code>
-sudo mount /dev/sdb1 /mnt/mydrive
+sudo mount /dev/sdb1(硬盘设备名) /mnt/mydrive(目标挂载路径，需要提前创建)
 </code></pre>
 
 
