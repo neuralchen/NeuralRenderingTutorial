@@ -18,9 +18,14 @@
 
 ## 2.操作系统环境
 
-ubuntu16.04版本的基础使用
+## ubuntu的基础使用
 
 硬盘挂载mount、硬盘使用情况查看df, du, fdisk等
+
+- 查看当前目录下所有文件夹包括子文件夹的空间占用
+<pre><code>
+sudo du -sh *
+</code></pre>
 
 - 硬盘挂载
 <pre><code>
