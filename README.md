@@ -46,7 +46,7 @@ ls /usr/bin/gcc*
 
 - 修改对应版本GCC的优先级
 <pre><code>
-sudo update-alternatives --install /usr/bin/gcc gcc [/usr/bin/gcc-11](修改为目标的GCC路径，通过上面命令得到) [50](优先级)
+sudo update-alternatives --install /usr/bin/gcc gcc <b>[/usr/bin/gcc-11](修改为目标的GCC路径，通过上面命令得到) [50](优先级)</b>
 </code></pre>
 
 - 选择系统GCC版本
