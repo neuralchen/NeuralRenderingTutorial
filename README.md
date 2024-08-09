@@ -38,6 +38,21 @@ sudo mount /dev/sdb1(硬盘设备名) /mnt/mydrive(目标挂载路径，需要�
 sudo lsof -i :端口号
 </code></pre>
 
+### GCC/G++编译器切换
+- 查看已安装的GCC
+<pre><code>
+ls /usr/bin/gcc*
+</code></pre>
+
+- 修改对应版本GCC的优先级
+<pre><code>
+sudo update-alternatives --install /usr/bin/gcc gcc [/usr/bin/gcc-11](修改为目标的GCC路径，通过上面命令得到) [50](优先级)
+</code></pre>
+
+- 选择系统GCC版本
+<pre><code>
+sudo update-alternatives --config gcc
+</code></pre>
 
 ### nvidia显卡驱动安装教程 (nvidia驱动安装 卸载)：
 
