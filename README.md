@@ -113,6 +113,7 @@ source ~/.bashrc
 <pre><code>
 nvcc -V
 </code></pre> 
+### 切换不同的CUDA版本
 
 nvidia-smi命令使用
 
