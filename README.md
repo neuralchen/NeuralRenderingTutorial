@@ -114,6 +114,12 @@ source ~/.bashrc
 nvcc -V
 </code></pre> 
 ### 切换不同的CUDA版本
+切换到CUDA的安装目录，通常默认为```/usr/local/```
+<pre><code>
+cd /usr/local/
+sudo rm -rf cuda/
+sudo ln -s /usr/local/cuda-[version] /usr/local/cuda
+</code></pre>
 
 nvidia-smi命令使用
 
