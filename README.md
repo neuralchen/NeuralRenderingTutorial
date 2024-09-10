@@ -88,8 +88,9 @@ tar xf cudnn-linux-x86_64-******-archive.tar.xz
 </code></pre>
 解压后在当前目录得到文件夹```cudnn-linux-x86_64-******-archive/```。将相关文件拷贝到cuda安装目录中，顺序执行以下三条命令：
 <pre><code>
-  sudo cp cudnn-linux-x86_64-******-archive/include/cudnn.h /usr/local/cuda/include
-  sudo cp cudnn-linux-x86_64-******-archive/lib/libcudnn* /usr/local/cuda/lib64
+ cd ./cudnn-linux-x86_64-******-archive/
+  sudo cp ./include/cudnn.h /usr/local/cuda/include
+  sudo cp ./lib/libcudnn* /usr/local/cuda/lib64
   sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
 </code></pre>
   
