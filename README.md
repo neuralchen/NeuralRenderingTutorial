@@ -67,7 +67,7 @@ sudo ./<b>[replace_with_download_file_name]</b>.run
 ### CUDA与cudnn安装
 ***杜绝使用apt-get install安装任何cuda相关的软件包！！！！！***
 - 查看系统中是否安装nvidia显卡驱动（***显卡驱动也严格杜绝使用apt-get install安装！！！！***），如存在显卡驱动请使用```nvidia-smi```查看“CUDA Version”版本，该版本即为已安装驱动能支持的最高CUDA版本
-- 下载目标版本的CUDA与Cudnn，[CUDA下载地址](https://developer.nvidia.com/cuda-downloads)，[Cudnn下载地址](https://developer.nvidia.com/cudnn)需要注册账号。***注意看版本号，如果目标版本不是最新版本号，CUDA需要通过"Archive of Previous CUDA Releases"选择目标版本***。CUDA下载和Cudnn都可以通过wget直接下载。
+- 下载目标版本的CUDA与Cudnn，[CUDA下载地址](https://developer.nvidia.com/cuda-downloads)，[Cudnn下载地址](https://developer.nvidia.com/rdp/cudnn-archive)需要注册账号。***注意看版本号，如果目标版本不是最新版本号，CUDA需要通过"Archive of Previous CUDA Releases"选择目标版本***。CUDA下载和Cudnn都可以通过wget直接下载。
 - 安装CUDA，下载得到的```[replace_with_download_file_name].run```文件，首先需要赋予其执行权限，即通过
 <pre><code>
 sudo chomod +x <b>[replace_with_download_file_name]</b>.run
