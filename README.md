@@ -200,8 +200,6 @@ Batch Normalization特征空间正规化加速网络训练，建议查阅博客�
 
 Instance Normalization
 
-白化whitening 与coloring
-
 conditional batch normalization
 
 adaptive instance normalization https://arxiv.org/pdf/1703.06868.pdf
@@ -210,6 +208,11 @@ conditional instance normalization
 
 
 ## 8.深度生成相关知识：
+
+
+########################################################################
+传统生成
+########################################################################
 
 理解GAN，请先查阅相关博客资料，原论文：https://arxiv.org/abs/1406.2661
 
